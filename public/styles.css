@@ -1,0 +1,105 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&family=Roboto:wght@400;500;700&display=swap');
+
+/* Configuração Geral */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: rgba(192, 192, 192, 0.74);
+}
+
+body{
+    background: white;
+    padding-bottom: 50px;
+}
+
+body h1, h3{
+    color: var(--primary-color);
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+body p, strong, ul, li, h4{
+    line-height: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+div.barra{
+    position: relative;
+    background-color: rgb(54, 54, 54);
+    top: 0;
+    width: 100%;
+    height: 220px;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 12%;
+}
+
+header h1{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    letter-spacing: 16px;
+}
+
+header img{
+    position: absolute;
+    top: 80px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Configuração dos outros elementos */
+
+main.content{
+    display: flex;
+    border-top: 3px solid var(--primary-color);
+    padding-top: 50px;
+}
+
+main.content div.content-column-one div.container{
+    padding-right: 25%;
+    padding-left: 50px;
+}
+
+main.content div.content-column-one div.container .skills {
+    margin-bottom: 30px;
+}
+
+main.content div.content-column-one div.container.contact a{
+    text-decoration: none;
+    color: black;
+}
+
+main.content div.content-column-one div.container.contact a:hover{
+    font-weight: 600;
+    transition: 700ms;
+}
+
+main.content div.content-column-two{
+    border-left: 3px solid var(--primary-color);
+    padding-left: 50px;
+    padding-right: 70px;
+}
+
+main.content div.content-column-two h4{
+    font-weight: 500;
+}

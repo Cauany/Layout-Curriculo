@@ -2,16 +2,16 @@
   "name": "Layout-Curriculo",
   "version": "1.0.0",
   "description": "Página Web com um layout de currículo vitae, utilizando HTML, JavaScript e CSS.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Cauany/Layout-Curriculo.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Cauany Souza",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Cauany/Layout-Curriculo/issues"
